@@ -1,6 +1,7 @@
 [submodule "buildroot"]
 	path = buildroot
 	url = https://git.busybox.net/buildroot
+	branch = main
 
 [submodule "assignment-autotest"]
 	path = assignment-autotest
