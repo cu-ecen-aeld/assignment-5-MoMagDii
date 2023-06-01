@@ -18,7 +18,7 @@ jobs:
             with:
                 ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
                 token: '${{ secrets.ACCESS_TOKEN }}'
-                submodules: true
+                submodules: recursive
           - name: Run full test
             env:
               GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
